@@ -35,12 +35,12 @@ const Sidebar = () => (
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/mohammed-abdul-qahhar-918024197/'>
+                <a target="_blank" rel="noreferrer" href='https://github.com/AbdulCodes154'>
                   <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/mohammed-abdul-qahhar-918024197/'>
+                <a target="_blank" rel="noreferrer" href='https://twitter.com/AbdulCodes154'>
                   <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
                 </a>
             </li>
