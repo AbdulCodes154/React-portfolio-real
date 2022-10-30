@@ -52,4 +52,220 @@
     }
 }   
 
+.hex-colors {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 40%;
+    max-height: 90%;
+
+    .hex-colors-link {
+        color:#fff;
+        font-size: 35px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        display: inline-block;
+        opacity: 0;
+        animation: bounceIn;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        min-width: 10px;
+
+        &:hover {
+            color: #04ff00;
+        }
+
+        &::before {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 15px;
+            left: -50px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+} 
+
+.vue3-todo {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    width: 40%;
+    max-height: 90%;
+
+    .vue3-todo-link {
+        color:#fff;
+        font-size: 35px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        display: inline-block;
+        opacity: 0;
+        animation: bounceIn;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        min-width: 10px;
+
+        &:hover {
+            color: #04ff00;
+        }
+
+        &::before {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 15px;
+            left: -50px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+} 
+
+.tic {
+    position: absolute;
+    left: 75%;
+    top: 25%;
+    width: 40%;
+    max-height: 90%;
+
+    .tic-link {
+        color:#fff;
+        font-size: 35px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        display: inline-block;
+        opacity: 0;
+        animation: bounceIn;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        min-width: 10px;
+
+        &:hover {
+            color: #04ff00;
+        }
+
+        &::before {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 15px;
+            left: -50px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h2>';
+            font-family: 'La Belle Aurore';
+            color: #04ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+} 
+
+.hex-p {
+    position: absolute;
+    left: 9%;
+    top: 35%;
+    width: 40%;
+    max-height: 90%;
+    color:#fff;
+    font-size: 13px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+.vue-p {
+    position: absolute;
+    left: 43%;
+    top: 35%;
+    width: 40%;
+    max-height: 90%;
+    color:#fff;
+    font-size: 13px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+ 
+.tic-c {
+    padding: 200px;
+    width: 5em;
+    top: 34%;
+    position: relative;
+    left: 69%;
     
+    .tic-p {
+        position: absolute;
+        left: 0%;
+        top: 2%;
+        width: 100%;
+        max-height: 90%;
+        color:#fff;
+        font-size: 13px;
+        margin: 0;
+        font-family: sans-serif;
+        font-weight: 300;
+        display: inline-flexbox;
+        opacity: 0;
+        animation: bounceIn;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        min-width: 10px;
+    }
+}
